@@ -5,7 +5,7 @@ IDA Resource Collection. 450+ open source tools, ~300 blog posts.
 
 
 # 说明
-[中文版本](https://github.com/xrkk/awesome-ida/blob/master/readme.md)
+[中文版本](https://github.com/xrkk/awesome-ida/blob/master/Readme.md)
 
 
 # Directory

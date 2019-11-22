@@ -5,7 +5,7 @@
 
 
 # 说明
-[EnglishVersion](https://github.com/xrkk/awesome-ida/blob/master/readme_en.md)
+[EnglishVersion](https://github.com/xrkk/awesome-ida/blob/master/Readme_en.md)
 
 
 # 目录
