@@ -11,7 +11,7 @@
 # 目录
 - [工具](#f11ab1ff46aa300cc3e86528b8a98ad7)
     - [新添加的](#c39dbae63d6a3302c4df8073b4d1cdc8)
-    - [(93) 未分类](#c39a6d8598dde6abfeef43faf931beb5)
+    - [(97) 未分类](#c39a6d8598dde6abfeef43faf931beb5)
     - [结构体&&类的检测&&创建&&恢复](#fb4f0c061a72fc38656691746e7c45ce)
         - [(6) 未分类](#fa5ede9a4f58d4efd98585d3158be4fb)
         - [(8) C++类&&虚表](#4900b1626f10791748b20630af6d6123)
@@ -37,7 +37,7 @@
         - [(3) Frida](#a1cf7f7f849b4ca2101bd31449c2a0fd)
         - [(2) IntelPin](#dd0332da5a1482df414658250e6357f8)
     - [针对特定分析目标](#004c199e1dbf71769fbafcd8e58d1ead)
-        - [(24) 未分类](#5578c56ca09a5804433524047840980e)
+        - [(25) 未分类](#5578c56ca09a5804433524047840980e)
         - [(2) GoLang](#1b17ac638aaa09852966306760fda46b)
         - [(4) Windows驱动](#4c158ccc5aee04383755851844fdd137)
         - [(4) PS3&&PS4](#315b1b8b41c67ae91b841fce1d4190b5)
@@ -149,7 +149,7 @@
     - [mipslocalvars](https://github.com/devttys0/ida/tree/master/plugins/mipslocalvars) 对栈上只用于存储寄存器的变量进行命名，简化栈数据分析（MISP）
     - [mipsrop](https://github.com/devttys0/ida/tree/master/plugins/mipsrop) 在MIPS可执行代码中搜寻ROP。查找常见的ROP
     - [rizzo](https://github.com/devttys0/ida/tree/master/plugins/rizzo) 对2个或多个IDB之间的函数进行识别和重命名，基于：函数签名、对唯一字符串/常量的引用、模糊签名、调用图
-- [**308**星][30d] [C] [ohjeongwook/darungrim](https://github.com/ohjeongwook/darungrim) 软件补丁分析工具
+- [**308**星][1m] [C] [ohjeongwook/darungrim](https://github.com/ohjeongwook/darungrim) 软件补丁分析工具
     - [IDA插件](https://github.com/ohjeongwook/darungrim/tree/master/Src/IDAPlugin) 
     - [DGEngine](https://github.com/ohjeongwook/darungrim/tree/master/Src/DGEngine) 
 - [**295**星][1y] [C++] [nevermoe/unity_metadata_loader](https://github.com/nevermoe/unity_metadata_loader)  load strings and method/class names in global-metadata.dat to IDA
@@ -248,7 +248,7 @@
 - [**20**星][2y] [C#] [zoebear/radia](https://github.com/zoebear/radia) 创建一个用于可视化代码的交互式、沉浸式环境，辅助二进制文件逆向
 - [**20**星][3y] [Py] [ztrix/idascript](https://github.com/ztrix/idascript) Full functional idascript with stdin/stdout handled
 - [**20**星][1y] [Py] [hyuunnn/ida_python_scripts](https://github.com/hyuunnn/ida_python_scripts) ida python scripts
-- [**20**星][25d] [Py] [mephi42/ida-kallsyms](https://github.com/mephi42/ida-kallsyms) None
+- [**20**星][29d] [Py] [mephi42/ida-kallsyms](https://github.com/mephi42/ida-kallsyms) None
 - [**19**星][8m] [Py] [yellowbyte/reverse-engineering-playground](https://github.com/yellowbyte/reverse-engineering-playground) 逆向脚本收集，包括：IDAPython、文件分析、文件格式分析、文件系统分析、Shellcode分析
 - [**18**星][1y] [Py] [a1ext/ida-embed-arch-disasm](https://github.com/a1ext/ida-embed-arch-disasm) 使IDA可在32位数据库中反汇编x64代码(WOW64) 
 - [**17**星][1y] [Py] [honeybadger1613/etm_displayer](https://github.com/honeybadger1613/etm_displayer) IDA Pro плагин для отображения результата Coresight ETM трассировки perf'а
@@ -270,8 +270,8 @@
 - [**9**星][8m] [Py] [0xcpu/relieve](https://github.com/0xcpu/relieve) 逆向/恶意代码分析脚本
 - [**8**星][5y] [Py] [daniel_plohmann/idapatchwork](https://bitbucket.org/daniel_plohmann/idapatchwork) None
 - [**8**星][2y] [C++] [ecx86/ida7-segmentselect](https://github.com/ecx86/ida7-segmentselect) IDA-SegmentSelect library by sirmabus, ported to IDA 7
-- [**8**星][9d] [Py] [lanhikari22/gba-ida-pseudo-terminal](https://github.com/lanhikari22/gba-ida-pseudo-terminal) IDAPython tools to aid with analysis, disassembly and data extraction using IDA python commands, tailored for the GBA architecture at some parts
-- [**8**星][13d] [C++] [nlitsme/idcinternals](https://github.com/nlitsme/idcinternals) 研究IDC脚本的内部表现形式
+- [**8**星][12d] [Py] [lanhikari22/gba-ida-pseudo-terminal](https://github.com/lanhikari22/gba-ida-pseudo-terminal) IDAPython tools to aid with analysis, disassembly and data extraction using IDA python commands, tailored for the GBA architecture at some parts
+- [**8**星][16d] [C++] [nlitsme/idcinternals](https://github.com/nlitsme/idcinternals) 研究IDC脚本的内部表现形式
 - [**8**星][3y] [Py] [pwnslinger/ibt](https://github.com/pwnslinger/ibt) IDA Pro Back Tracer - Initial project toward automatic customized protocols structure extraction
 - [**8**星][2y] [C++] [shazar14/idadump](https://github.com/shazar14/idadump) An IDA Pro script to verify binaries found in a sample and write them to disk
 - [**7**星][2y] [Py] [swackhamer/ida_scripts](https://github.com/swackhamer/ida_scripts) IDAPython脚本（无文档）
@@ -285,10 +285,11 @@
 - [**5**星][3y] [Py] [andreafioraldi/idavshelp](https://github.com/andreafioraldi/idavshelp) 在IDA中集成VS的帮助查看器
 - [**5**星][4m] [Py] [fdiskyou/ida-plugins](https://github.com/fdiskyou/ida-plugins) IDAPython脚本（无文档）
     - [banned_functions](https://github.com/fdiskyou/ida-plugins/blob/master/banned_functions.py) 
+- [**5**星][3y] [Py] [gh0st3rs/idassldump](https://github.com/gh0st3rs/idassldump) IDAPython脚本, 将SSL流量转储到文件
 - [**5**星][1y] [C++] [lab313ru/m68k_fixer](https://github.com/lab313ru/m68k_fixer) IDA Pro plugin fixer for m68k
 - [**5**星][5y] [C#] [npetrovski/ida-smartpatcher](https://github.com/npetrovski/ida-smartpatcher) IDA apply patch GUI
 - [**5**星][4y] [Py] [tmr232/tarkus](https://github.com/tmr232/tarkus) Plugin Manager for IDA Pro
-- [**4**星][1m] [Py] [gitmirar/idaextapi](https://github.com/gitmirar/idaextapi) IDA API utlitites
+- [**4**星][2m] [Py] [gitmirar/idaextapi](https://github.com/gitmirar/idaextapi) IDA API utlitites
 - [**4**星][3y] [Py] [hustlelabs/joseph](https://github.com/hustlelabs/joseph) IDA Viewer Plugins
 - [**4**星][1y] [savagedd/samp-server-idb](https://github.com/savagedd/samp-server-idb) None
 - [**4**星][1m] [Py] [spigwitmer/golang_struct_builder](https://github.com/spigwitmer/golang_struct_builder) IDA 7.0+ script that auto-generates structs and interfaces from runtime metadata found in golang binaries
@@ -304,6 +305,9 @@
 - [**1**星][2y] [Py] [andreafioraldi/idamsdnhelp](https://github.com/andreafioraldi/idamsdnhelp) 打开MSDN帮助搜索页
 - [**1**星][1y] [Py] [farzonl/idapropluginlab4](https://github.com/farzonl/idapropluginlab4) An ida pro plugin that tracks def use chains of a given x86 binary.
 - [**1**星][2m] [Py] [voidsec/ida-helpers](https://github.com/voidsec/ida-helpers) Collection of IDA helpers
+- [**0**星][3y] [Py] [kcufid/my_ida_python](https://github.com/kcufid/my_ida_python) My idapython decode data
+- [**0**星][12m] [Py] [ruipin/idapy](https://github.com/ruipin/idapy) Various IDAPython libraries and scripts
+- [**0**星][8m] [Py] [tkmru/idapython-scripts](https://github.com/tkmru/idapython-scripts) IDAPro scripts
 
 
 ***
@@ -315,7 +319,7 @@
 ### <a id="fa5ede9a4f58d4efd98585d3158be4fb"></a>未分类
 
 
-- [**924**星][13d] [OCaml] [airbus-seclab/bincat](https://github.com/airbus-seclab/bincat) 二进制代码静态分析工具。值分析（寄存器、内存）、污点分析、类型重建和传播（propagation）、前向/后向分析
+- [**924**星][16d] [OCaml] [airbus-seclab/bincat](https://github.com/airbus-seclab/bincat) 二进制代码静态分析工具。值分析（寄存器、内存）、污点分析、类型重建和传播（propagation）、前向/后向分析
     - 重复区段: [工具/污点分析&&符号执行](#34ac84853604a7741c61670f2a075d20) |
 - [**649**星][4m] [Py] [igogo-x86/hexrayspytools](https://github.com/igogo-x86/hexrayspytools) 结构体和类重建插件
 - [**168**星][12m] [Py] [bazad/ida_kernelcache](https://github.com/bazad/ida_kernelcache) 使用IDA Pro重建iOS内核缓存的C++类
@@ -388,7 +392,7 @@
 - [**10**星][7y] [Py] [luismiras/ida-color-scripts](https://github.com/luismiras/ida-color-scripts) 导入导出颜色主题
 - [**8**星][2y] [CSS] [gbps/x64dbg-consonance-theme](https://github.com/gbps/x64dbg-consonance-theme) 黑色的x64dbg主题
 - [**6**星][5y] [Py] [techbliss/ida-styler](https://github.com/techbliss/ida-styler) 修改IDA样式
-- [**3**星][1m] [rootbsd/ida_pro_zinzolin_theme](https://github.com/rootbsd/ida_pro_zinzolin_theme) zinzolin主题
+- [**3**星][2m] [rootbsd/ida_pro_zinzolin_theme](https://github.com/rootbsd/ida_pro_zinzolin_theme) zinzolin主题
 - [**1**星][12m] [C] [albertzsigovits/idc-dark](https://github.com/albertzsigovits/idc-dark) A dark-mode color scheme for Hex-Rays IDA using idc
 
 
@@ -398,7 +402,7 @@
 ## <a id="a8f5db3ab4bc7bc3d6ca772b3b9b0b1e"></a>固件&&嵌入式设备
 
 
-- [**5105**星][13d] [Py] [refirmlabs/binwalk](https://github.com/ReFirmLabs/binwalk) 固件分析工具（命令行+IDA插件）
+- [**5105**星][16d] [Py] [refirmlabs/binwalk](https://github.com/ReFirmLabs/binwalk) 固件分析工具（命令行+IDA插件）
     - [IDA插件](https://github.com/ReFirmLabs/binwalk/tree/master/src/scripts) 
     - [binwalk](https://github.com/ReFirmLabs/binwalk/tree/master/src/binwalk) 
 - [**483**星][3m] [Py] [maddiestone/idapythonembeddedtoolkit](https://github.com/maddiestone/idapythonembeddedtoolkit) 自动分析嵌入式设备的固件
@@ -407,7 +411,7 @@
     - [cortex_m_firmware](https://github.com/duo-labs/idapython/blob/master/cortex_m_firmware.py)  整理包含ARM Cortex M微控制器固件的IDA Pro数据库
     - [amnesia](https://github.com/duo-labs/idapython/blob/master/amnesia.py) 使用字节级启发式在IDA Pro数据库中的未定义字节中查找ARM Thumb指令
     - [REobjc](https://github.com/duo-labs/idapython/blob/master/reobjc.py) 在Objective-C的调用函数和被调用函数之间进行适当的交叉引用
-- [**90**星][16d] [Py] [pagalaxylab/vxhunter](https://github.com/PAGalaxyLab/vxhunter) 用于分析基于VxWorks的嵌入式设备的工具集
+- [**90**星][20d] [Py] [pagalaxylab/vxhunter](https://github.com/PAGalaxyLab/vxhunter) 用于分析基于VxWorks的嵌入式设备的工具集
     - [R2](https://github.com/PAGalaxyLab/vxhunter/blob/master/firmware_tools/vxhunter_r2_py2.py) 
     - [IDA插件](https://github.com/PAGalaxyLab/vxhunter/blob/master/firmware_tools/vxhunter_ida.py) 
     - [Ghidra插件](https://github.com/PAGalaxyLab/vxhunter/tree/master/firmware_tools/ghidra) 
@@ -422,7 +426,7 @@
 ### <a id="cf04b98ea9da0056c055e2050da980c1"></a>未分类
 
 
-- [**416**星][22d] [C] [mcgill-dmas/kam1n0-community](https://github.com/McGill-DMaS/Kam1n0-Community) 汇编代码管理与分析平台(独立工具+IDA插件)
+- [**416**星][25d] [C] [mcgill-dmas/kam1n0-community](https://github.com/McGill-DMaS/Kam1n0-Community) 汇编代码管理与分析平台(独立工具+IDA插件)
     - 重复区段: [工具/作为辅助&&构成其他的一环](#83de90385d03ac8ef27360bfcdc1ab48) |
     - [IDA插件](https://github.com/McGill-DMaS/Kam1n0-Community/tree/master2.x/kam1n0-clients/ida-plugin) 
     - [kam1n0](https://github.com/McGill-DMaS/Kam1n0-Community/tree/master2.x/kam1n0) 
@@ -435,7 +439,7 @@
 - [**33**星][3y] [Py] [g4hsean/binauthor](https://github.com/g4hsean/binauthor) 识别未知二进制文件的作者
 - [**31**星][1y] [Py] [cisco-talos/casc](https://github.com/cisco-talos/casc) 在IDA的反汇编和字符串窗口中, 辅助创建ClamAV NDB 和 LDB签名
 - [**25**星][2y] [LLVM] [syreal17/cardinal](https://github.com/syreal17/cardinal) Similarity Analysis to Defeat Malware Compiler Variations
-- [**23**星][4m] [Py] [xorpd/fcatalog_server](https://github.com/xorpd/fcatalog_server) Functions Catalog
+- [**23**星][5m] [Py] [xorpd/fcatalog_server](https://github.com/xorpd/fcatalog_server) Functions Catalog
 - [**21**星][3y] [Py] [xorpd/fcatalog_client](https://github.com/xorpd/fcatalog_client) fcatalog idapython client
 - [**18**星][5y] [Py] [zaironne/snippetdetector](https://github.com/zaironne/snippetdetector) IDA Python scripts project for snippets detection
 - [**16**星][8y] [C++] [alexander-pick/idb2pat](https://github.com/alexander-pick/idb2pat) idb2pat plugin, fixed to work with IDA 6.2
@@ -452,7 +456,7 @@
 #### <a id="1c9d8dfef3c651480661f98418c49197"></a>FLIRT签名收集
 
 
-- [**589**星][8d] [Max] [maktm/flirtdb](https://github.com/Maktm/FLIRTDB) A community driven collection of IDA FLIRT signature files
+- [**589**星][11d] [Max] [maktm/flirtdb](https://github.com/Maktm/FLIRTDB) A community driven collection of IDA FLIRT signature files
 - [**303**星][4m] [push0ebp/sig-database](https://github.com/push0ebp/sig-database) IDA FLIRT Signature Database
 - [**5**星][8m] [cloudwindby/ida-pro-sig](https://github.com/cloudwindby/ida-pro-sig) IDA PRO FLIRT signature files MSVC2017的sig文件
 
@@ -470,7 +474,7 @@
 ### <a id="161e5a3437461dc8959cc923e6a18ef7"></a>Diff&&Match工具
 
 
-- [**1525**星][20d] [Py] [joxeankoret/diaphora](https://github.com/joxeankoret/diaphora) program diffing
+- [**1525**星][24d] [Py] [joxeankoret/diaphora](https://github.com/joxeankoret/diaphora) program diffing
 - [**353**星][3m] [Py] [checkpointsw/karta](https://github.com/checkpointsw/karta) Karta - source code assisted fast binary matching plugin for IDA
 - [**328**星][11m] [Py] [joxeankoret/pigaios](https://github.com/joxeankoret/pigaios) A tool for matching and diffing source codes directly against binaries.
 - [**136**星][12m] [Py] [nirizr/rematch](https://github.com/nirizr/rematch) REmatch, a complete binary diffing framework that is free and strives to be open source and community driven.
@@ -486,12 +490,12 @@
 ### <a id="46c9dfc585ae59fe5e6f7ddf542fb31a"></a>Yara
 
 
-- [**424**星][23d] [Py] [polymorf/findcrypt-yara](https://github.com/polymorf/findcrypt-yara) 使用Yara规则查找加密常量
+- [**424**星][26d] [Py] [polymorf/findcrypt-yara](https://github.com/polymorf/findcrypt-yara) 使用Yara规则查找加密常量
     - 重复区段: [工具/加密解密](#06d2caabef97cf663bd29af2b1fe270c) |
-- [**92**星][29d] [Py] [hyuunnn/hyara](https://github.com/hyuunnn/Hyara) 辅助编写Yara规则
+- [**92**星][1m] [Py] [hyuunnn/hyara](https://github.com/hyuunnn/Hyara) 辅助编写Yara规则
     - [IDA插件](https://github.com/hy00un/hyara/tree/master/IDA%20Plugin) 
     - [BinaryNinja插件](https://github.com/hy00un/hyara/tree/master/BinaryNinja%20Plugin) 
-- [**92**星][29d] [Py] [hyuunnn/hyara](https://github.com/hyuunnn/hyara) Yara rule making tool (IDA Pro & Binary Ninja Plugin)
+- [**92**星][1m] [Py] [hyuunnn/hyara](https://github.com/hyuunnn/hyara) Yara rule making tool (IDA Pro & Binary Ninja Plugin)
 - [**81**星][1y] [Py] [oalabs/findyara](https://github.com/oalabs/findyara) 使用Yara规则扫描二进制文件
 - [**16**星][10m] [Py] [bnbdr/ida-yara-processor](https://github.com/bnbdr/ida-yara-processor) 针对已编译Yara规则文件的Loader&&Processor
     - 重复区段: [工具/针对特定分析目标/Loader&Processor](#cb59d84840e41330a7b5e275c0b81725) |
@@ -508,9 +512,9 @@
 
 
 - [**312**星][5m] [Py] [williballenthin/python-idb](https://github.com/williballenthin/python-idb) idb 文件解析和分析工具
-- [**144**星][10d] [Py] [nccgroup/idahunt](https://github.com/nccgroup/idahunt) 在IDA外部使用IDAPython脚本, 批量创建/读取/解析IDB文件, 可编写自己的IDB分析脚本,命令行工具,
+- [**144**星][14d] [Py] [nccgroup/idahunt](https://github.com/nccgroup/idahunt) 在IDA外部使用IDAPython脚本, 批量创建/读取/解析IDB文件, 可编写自己的IDB分析脚本,命令行工具,
 - [**84**星][4m] [C++] [nlitsme/idbutil](https://github.com/nlitsme/idbutil) 从 IDA 数据库中提取数据，支持 idb 及 i64
-- [**78**星][2m] [Py] [nlitsme/pyidbutil](https://github.com/nlitsme/pyidbutil) 读取IDB数据库
+- [**78**星][3m] [Py] [nlitsme/pyidbutil](https://github.com/nlitsme/pyidbutil) 读取IDB数据库
 - [**18**星][1y] [Py] [kkhaike/tinyidb](https://github.com/kkhaike/tinyidb) 从巨型IDB数据库中导出用户数据
 - [**0**星][4y] [C] [hugues92/idaextrapassplugin](https://github.com/hugues92/idaextrapassplugin) 修复与清理IDB数据库
 
@@ -524,7 +528,7 @@
 - [**504**星][10m] [Py] [idarlingteam/idarling](https://github.com/IDArlingTeam/IDArling) 多人协作插件
 - [**257**星][1y] [C++] [dga-mi-ssi/yaco](https://github.com/dga-mi-ssi/yaco) 利用Git版本控制，同步多人对相同二进制文件的修改
 - [**88**星][5y] [Py] [cubicalabs/idasynergy](https://github.com/cubicalabs/idasynergy) 集成了版本控制系统(svn)的IDA插件
-- [**71**星][17d] [C++] [cseagle/collabreate](https://github.com/cseagle/collabreate) Hook IDA的事件通知，将事件涉及的修改内容广播到中心服务器，中心服务器转发给其他分析相同文件的用户
+- [**71**星][20d] [C++] [cseagle/collabreate](https://github.com/cseagle/collabreate) Hook IDA的事件通知，将事件涉及的修改内容广播到中心服务器，中心服务器转发给其他分析相同文件的用户
 - [**4**星][2y] [Py] [argussecurity/psida](https://bitbucket.org/socialauth/login/atlassianid/?next=%2Fargussecurity%2Fpsida) IDAPython脚本收集，当前只有协作逆向的脚本
 
 
@@ -534,7 +538,7 @@
 ## <a id="f7d311685152ac005cfce5753c006e4b"></a>与调试器同步&&通信&&交互
 
 
-- [**448**星][18d] [C] [bootleg/ret-sync](https://github.com/bootleg/ret-sync) 在反汇编工具和调试器之间同步调试会话
+- [**448**星][21d] [C] [bootleg/ret-sync](https://github.com/bootleg/ret-sync) 在反汇编工具和调试器之间同步调试会话
     - [GDB插件](https://github.com/bootleg/ret-sync/tree/master/ext_gdb) 
     - [Ghidra插件](https://github.com/bootleg/ret-sync/tree/master/ext_ghidra) 
     - [IDA插件](https://github.com/bootleg/ret-sync/tree/master/ext_ida) 
@@ -543,12 +547,12 @@
     - [OD2](https://github.com/bootleg/ret-sync/tree/master/ext_olly2) 
     - [WinDgb](https://github.com/bootleg/ret-sync/tree/master/ext_windbg/sync) 
     - [x64dbg](https://github.com/bootleg/ret-sync/tree/master/ext_x64dbg) 
-- [**285**星][9m] [C] [a1ext/labeless](https://github.com/a1ext/labeless) 在IDA和调试器之间无缝同步Label/注释等
+- [**285**星][10m] [C] [a1ext/labeless](https://github.com/a1ext/labeless) 在IDA和调试器之间无缝同步Label/注释等
     - [IDA插件](https://github.com/a1ext/labeless/tree/master/labeless_ida) 
     - [OD](https://github.com/a1ext/labeless/tree/master/labeless_olly) 
     - [OD2](https://github.com/a1ext/labeless/tree/master/labeless_olly2) 
     - [x64dbg](https://github.com/a1ext/labeless/tree/master/labeless_x64dbg) 
-- [**168**星][11m] [Py] [andreafioraldi/idangr](https://github.com/andreafioraldi/idangr) 在IDA中使用angrdbg调试器进行调试
+- [**168**星][12m] [Py] [andreafioraldi/idangr](https://github.com/andreafioraldi/idangr) 在IDA中使用angrdbg调试器进行调试
 - [**128**星][2y] [Py] [comsecuris/gdbida](https://github.com/comsecuris/gdbida) 使用GDB调试时，在IDA中自动跟随当前GDB的调试位置
     - [IDA插件](https://github.com/comsecuris/gdbida/blob/master/ida_gdb_bridge.py) 
     - [GDB脚本](https://github.com/comsecuris/gdbida/blob/master/gdb_ida_bridge_client.py) 
@@ -576,18 +580,18 @@
 ### <a id="8ad723b704b044e664970b11ce103c09"></a>未分类
 
 
-- [**159**星][27d] [Py] [x64dbg/x64dbgida](https://github.com/x64dbg/x64dbgida) x64dbg插件，用于IDA数据导入导出
-- [**143**星][28d] [C++] [alschwalm/dwarfexport](https://github.com/alschwalm/dwarfexport) Export dwarf debug information from IDA Pro
+- [**159**星][1m] [Py] [x64dbg/x64dbgida](https://github.com/x64dbg/x64dbgida) x64dbg插件，用于IDA数据导入导出
+- [**143**星][1m] [C++] [alschwalm/dwarfexport](https://github.com/alschwalm/dwarfexport) Export dwarf debug information from IDA Pro
 - [**95**星][2y] [Py] [robindavid/idasec](https://github.com/robindavid/idasec) IDA插件，与Binsec 平台进行交互
 - [**67**星][11m] [Py] [lucasg/idamagnum](https://github.com/lucasg/idamagnum) 在IDA中向MagnumDB发起请求, 查询枚举常量可能的值
-- [**58**星][8d] [Py] [binaryanalysisplatform/bap-ida-python](https://github.com/binaryanalysisplatform/bap-ida-python) IDAPython脚本，在IDA中集成BAP
+- [**58**星][11d] [Py] [binaryanalysisplatform/bap-ida-python](https://github.com/binaryanalysisplatform/bap-ida-python) IDAPython脚本，在IDA中集成BAP
 - [**35**星][5y] [Py] [siberas/ida2sym](https://github.com/siberas/ida2sym) IDAScript to create Symbol file which can be loaded in WinDbg via AddSyntheticSymbol
 - [**29**星][5y] [C++] [oct0xor/deci3dbg](https://github.com/oct0xor/deci3dbg) Ida Pro debugger module for Playstation 3
     - 重复区段: [工具/针对特定分析目标/PS3&&PS4](#315b1b8b41c67ae91b841fce1d4190b5) |
 - [**28**星][4m] [C++] [thalium/idatag](https://github.com/thalium/idatag) IDA plugin to explore and browse tags
 - [**19**星][2y] [Py] [brandon-everhart/angryida](https://github.com/brandon-everhart/angryida) 在IDA中集成angr二进制分析框架
 - [**16**星][4y] [C++] [m417z/mapimp](https://github.com/m417z/mapimp) This is an OllyDbg plugin which will help you to import map files exported by IDA, Dede, IDR, Microsoft and Borland linkers.
-- [**16**星][4y] [Py] [danielmgmi/virusbattle-ida-plugin](https://github.com/danielmgmi/virusbattle-ida-plugin) The plugin is an integration of Virus Battle API to the well known IDA Disassembler.
+- [**16**星][5y] [Py] [danielmgmi/virusbattle-ida-plugin](https://github.com/danielmgmi/virusbattle-ida-plugin) The plugin is an integration of Virus Battle API to the well known IDA Disassembler.
 - [**8**星][7y] [C++] [patois/madnes](https://github.com/patois/madnes) 从IDB中导出符号和名称，使可在FCEUXD SP中导入
 - [**3**星][1y] [Py] [r00tus3r/differential_debugging](https://github.com/r00tus3r/differential_debugging) Differential debugging using IDA Python and GDB
 
@@ -606,7 +610,7 @@
 ### <a id="11139e7d6db4c1cef22718868f29fe12"></a>BinNavi
 
 
-- [**378**星][14d] [C++] [google/binexport](https://github.com/google/binexport) 将反汇编以Protocol Buffer的形式导出为PostgreSQL数据库, 导入到BinNavi中使用
+- [**378**星][17d] [C++] [google/binexport](https://github.com/google/binexport) 将反汇编以Protocol Buffer的形式导出为PostgreSQL数据库, 导入到BinNavi中使用
 - [**213**星][3y] [PLpgSQL] [cseagle/freedom](https://github.com/cseagle/freedom) 从IDA中导出反汇编信息, 导入到binnavi中使用
 - [**25**星][7y] [Py] [tosanjay/bopfunctionrecognition](https://github.com/tosanjay/bopfunctionrecognition) This python/jython script is used as plugin to BinNavi tool to analyze a x86 binanry file to find buffer overflow prone functions. Such functions are important for vulnerability analysis.
 
@@ -614,7 +618,7 @@
 ### <a id="d1ff64bee76f6749aef6100d72bfbe3a"></a>BinaryNinja
 
 
-- [**67**星][7m] [Py] [lunixbochs/revsync](https://github.com/lunixbochs/revsync) IDA和Binja实时同步插件
+- [**67**星][8m] [Py] [lunixbochs/revsync](https://github.com/lunixbochs/revsync) IDA和Binja实时同步插件
 - [**60**星][5m] [Py] [zznop/bnida](https://github.com/zznop/bnida) 4个脚本，在IDA和BinaryNinja间交互数据
     - [ida_export](https://github.com/zznop/bnida/blob/master/ida/ida_export.py) 将数据从IDA中导入
     - [ida_import](https://github.com/zznop/bnida/blob/master/ida/ida_import.py) 将数据导入到IDA
@@ -628,7 +632,7 @@
 
 - [**125**星][7m] [Py] [danigargu/syms2elf](https://github.com/danigargu/syms2elf) 将IDA Pro和Radare2识别的符号（目前仅函数）导出到ELF符号表
     - 重复区段: [工具/ELF](#e5e403123c70ddae7bd904d3a3005dbb) |[工具/函数相关/未分类](#347a2158bdd92b00cd3d4ba9a0be00ae) |
-- [**123**星][25d] [Py] [radare/radare2ida](https://github.com/radare/radare2ida) Tools, documentation and scripts to move projects from IDA to R2 and viceversa
+- [**123**星][28d] [Py] [radare/radare2ida](https://github.com/radare/radare2ida) Tools, documentation and scripts to move projects from IDA to R2 and viceversa
 
 
 ### <a id="a1cf7f7f849b4ca2101bd31449c2a0fd"></a>Frida
@@ -683,6 +687,7 @@
     - 重复区段: [工具/调试&&动态运行&动态数据/未分类](#2944dda5289f494e5e636089db0d6a6a) |
 - [**74**星][2m] [Py] [coldzer0/ida-for-delphi](https://github.com/coldzer0/ida-for-delphi) 针对Delphi的IDAPython脚本，从 Event Constructor (VCL)中获取所有函数名称
 - [**59**星][2y] [Py] [isra17/nrs](https://github.com/isra17/nrs) 脱壳并分析NSIS installer打包的文件
+- [**58**星][2d] [Py] [fboldewin/com-code-helper](https://github.com/fboldewin/com-code-helper) IDAPython脚本, 辅助重建MS COM 代码
 - [**54**星][3m] [Py] [giantbranch/mipsaudit](https://github.com/giantbranch/mipsaudit) IDA MIPS静态扫描脚本，汇编审计辅助脚本
 - [**53**星][5m] [C++] [troybowman/dtxmsg](https://github.com/troybowman/dtxmsg) 辅助逆向DTXConnectionServices 框架
 - [**47**星][2y] [C++] [antid0tecom/aarch64_armv81extension](https://github.com/antid0tecom/aarch64_armv81extension) IDA AArch64 处理器扩展：添加对ARMv8.1 opcodes的支持
@@ -697,7 +702,7 @@
 - [**15**星][5y] [Py] [dolphin-emu/gcdsp-ida](https://github.com/dolphin-emu/gcdsp-ida) 辅助GC DSP逆向
 - [**11**星][2y] [C++] [hyperiris/gekkops](https://github.com/hyperiris/gekkops) Nintendo GameCube Gekko CPU Extension plug-in for IDA Pro 5.2
 - [**4**星][3y] [Py] [neogeodev/idaneogeo](https://github.com/neogeodev/idaneogeo) NeoGeo binary loader & helper for the Interactive Disassembler
-- [**2**星][3m] [C] [extremlapin/glua_c_headers_for_ida](https://github.com/extremlapin/glua_c_headers_for_ida) Glua module C headers for IDA
+- [**2**星][4m] [C] [extremlapin/glua_c_headers_for_ida](https://github.com/extremlapin/glua_c_headers_for_ida) Glua module C headers for IDA
 - [**2**星][4m] [Py] [lucienmp/idapro_m68k](https://github.com/lucienmp/idapro_m68k) 扩展IDA对m68k的支持，添加gdb step-over 和类型信息支持
 - [**0**星][8m] [C] [0xd0cf11e/idcscripts](https://github.com/0xd0cf11e/idcscripts) idc脚本
     - [emotet-decode](https://github.com/0xd0cf11e/idcscripts/blob/master/emotet/emotet-decode.idc) 解码emotet
@@ -708,14 +713,14 @@
 
 
 - [**363**星][8m] [Py] [sibears/idagolanghelper](https://github.com/sibears/idagolanghelper) 解析Go语言编译的二进制文件中的GoLang类型信息
-- [**285**星][23d] [Py] [strazzere/golang_loader_assist](https://github.com/strazzere/golang_loader_assist) 辅助Go逆向
+- [**285**星][26d] [Py] [strazzere/golang_loader_assist](https://github.com/strazzere/golang_loader_assist) 辅助Go逆向
 
 
 ### <a id="4c158ccc5aee04383755851844fdd137"></a>Windows驱动
 
 
 - [**303**星][1y] [Py] [fsecurelabs/win_driver_plugin](https://github.com/FSecureLABS/win_driver_plugin) A tool to help when dealing with Windows IOCTL codes or reversing Windows drivers.
-- [**216**星][12m] [Py] [nccgroup/driverbuddy](https://github.com/nccgroup/driverbuddy) 辅助逆向Windows内核驱动
+- [**216**星][1y] [Py] [nccgroup/driverbuddy](https://github.com/nccgroup/driverbuddy) 辅助逆向Windows内核驱动
 - [**73**星][4y] [Py] [tandasat/winioctldecoder](https://github.com/tandasat/winioctldecoder) IDA插件，将Windows设备IO控制码解码成为DeviceType, FunctionCode, AccessType, MethodType.
 - [**23**星][1y] [C] [ioactive/kmdf_re](https://github.com/ioactive/kmdf_re) 辅助逆向KMDF驱动
 
@@ -738,7 +743,7 @@
 - [**158**星][1m] [Py] [nforest/droidimg](https://github.com/nforest/droidimg) Android/Linux vmlinux loader
     - 重复区段: [工具/Android](#66052f824f5054aa0f70785a2389a478) |[工具/ELF](#e5e403123c70ddae7bd904d3a3005dbb) |
 - [**155**星][2y] [Py] [crytic/ida-evm](https://github.com/crytic/ida-evm) 以太坊虚拟机的Processor模块
-- [**138**星][28d] [Py] [argp/iboot64helper](https://github.com/argp/iboot64helper) IDAPython loader to help with AArch64 iBoot, iBEC, and SecureROM reverse engineering
+- [**138**星][1m] [Py] [argp/iboot64helper](https://github.com/argp/iboot64helper) IDAPython loader to help with AArch64 iBoot, iBEC, and SecureROM reverse engineering
 - [**127**星][2y] [C] [gsmk/hexagon](https://github.com/gsmk/hexagon) IDA processor module for the hexagon (QDSP6) processor
 - [**106**星][1y] [pgarba/switchidaproloader](https://github.com/pgarba/switchidaproloader) Loader for IDA Pro to support the Nintendo Switch NRO binaries
 - [**72**星][2y] [Py] [embedi/meloader](https://github.com/embedi/meloader) 加载英特尔管理引擎固件
@@ -773,7 +778,7 @@
 ### <a id="f5e51763bb09d8fd47ee575a98bedca1"></a>PDB
 
 
-- [**87**星][3m] [C++] [mixaill/fakepdb](https://github.com/mixaill/fakepdb) 通过IDA数据库生成PDB文件
+- [**87**星][4m] [C++] [mixaill/fakepdb](https://github.com/mixaill/fakepdb) 通过IDA数据库生成PDB文件
 - [**38**星][1y] [Py] [ax330d/ida_pdb_loader](https://github.com/ax330d/ida_pdb_loader) IDA PDB Loader
 - [**14**星][1y] [CMake] [gdataadvancedanalytics/bindifflib](https://github.com/gdataadvancedanalytics/bindifflib) Automated library compilation and PDB annotation with CMake and IDA Pro
 - [**2**星][5m] [Py] [clarkb7/annotate_lineinfo](https://github.com/clarkb7/annotate_lineinfo) Annotate IDA with source and line number information from a PDB
@@ -814,7 +819,7 @@
 ### <a id="2299bc16945c25652e5ad4d48eae8eca"></a>未分类
 
 
-- [**707**星][7d] [Py] [idapython/src](https://github.com/idapython/src) IDAPython源码
+- [**707**星][10d] [Py] [idapython/src](https://github.com/idapython/src) IDAPython源码
 - [**365**星][1m] [Py] [tmr232/sark](https://github.com/tmr232/sark) IDAPython的高级抽象
 - [**249**星][2y] [Py] [intezer/docker-ida](https://github.com/intezer/docker-ida) 在Docker容器中执行IDA, 以自动化/可扩展/分布式的方式执行IDAPython脚本
 - [**79**星][4y] [idapython/bin](https://github.com/idapython/bin) IDAPython binaries
@@ -842,7 +847,7 @@
 - [**441**星][3m] [C++] [alexhude/friend](https://github.com/alexhude/friend) 反汇编显示增强, 文档增强插件
     - 重复区段: [工具/效率&&导航&&快速访问&&图形&&图像&&可视化 /其他](#c5b120e1779b928d860ad64ff8d23264) |
 - [**242**星][2y] [Py] [gdelugre/ida-arm-system-highlight](https://github.com/gdelugre/ida-arm-system-highlight) 用于高亮和解码 ARM 系统指令
-- [**104**星][25d] [Py] [neatmonster/amie](https://github.com/neatmonster/amie) 针对ARM架构的`FRIEND`插件, 文档增强
+- [**104**星][28d] [Py] [neatmonster/amie](https://github.com/neatmonster/amie) 针对ARM架构的`FRIEND`插件, 文档增强
 - [**45**星][8y] [Py] [zynamics/msdn-plugin-ida](https://github.com/zynamics/msdn-plugin-ida) Imports MSDN documentation into IDA Pro
 - [**25**星][3y] [AutoIt] [yaseralnajjar/ida-msdn-helper](https://github.com/yaseralnajjar/IDA-MSDN-helper) IDA Pro MSDN Helper
 
@@ -858,10 +863,10 @@
 
 - [**383**星][3y] [Py] [36hours/idaemu](https://github.com/36hours/idaemu) 基于Unicorn引擎的代码模拟插件
     - 重复区段: [工具/模拟器集成](#b38dab81610be087bd5bc7785269b8cc) |
-- [**271**星][7d] [Py] [fireeye/flare-emu](https://github.com/fireeye/flare-emu) 结合Unicorn引擎, 简化模拟脚本的编写
+- [**271**星][10d] [Py] [fireeye/flare-emu](https://github.com/fireeye/flare-emu) 结合Unicorn引擎, 简化模拟脚本的编写
     - 重复区段: [工具/模拟器集成](#b38dab81610be087bd5bc7785269b8cc) |
-- [**135**星][8d] [Py] [arizvisa/ida-minsc](https://github.com/arizvisa/ida-minsc) IDA-minsc is a plugin for IDA Pro that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script aspects of their work with very little investment. Smash that "Star" button if you like this.
-- [**97**星][23d] [Py] [patois/idapyhelper](https://github.com/patois/idapyhelper) IDAPython脚本编写辅助
+- [**135**星][11d] [Py] [arizvisa/ida-minsc](https://github.com/arizvisa/ida-minsc) IDA-minsc is a plugin for IDA Pro that assists a user with scripting the IDAPython plugin that is bundled with the disassembler. This plugin groups the different aspects of the IDAPython API into a simpler format which allows a reverse engineer to script aspects of their work with very little investment. Smash that "Star" button if you like this.
+- [**97**星][26d] [Py] [patois/idapyhelper](https://github.com/patois/idapyhelper) IDAPython脚本编写辅助
 - [**74**星][3m] [C++] [0xeb/ida-qscripts](https://github.com/0xeb/ida-qscripts) IDA“最近脚本/执行脚本”的进化版
     - 重复区段: [工具/效率&&导航&&快速访问&&图形&&图像&&可视化 /其他](#c5b120e1779b928d860ad64ff8d23264) |
 - [**42**星][5m] [C++] [0xeb/ida-climacros](https://github.com/0xeb/ida-climacros) 在IDA命令行接口中定义和使用静态/动态的宏
@@ -873,7 +878,7 @@
 ### <a id="1a56a5b726aaa55ec5b7a5087d6c8968"></a>Qt
 
 
-- [**25**星][11m] [techbliss/ida_pro_ultimate_qt_build_guide](https://github.com/techbliss/ida_pro_ultimate_qt_build_guide) Ida Pro Ultimate Qt Build Guide
+- [**25**星][12m] [techbliss/ida_pro_ultimate_qt_build_guide](https://github.com/techbliss/ida_pro_ultimate_qt_build_guide) Ida Pro Ultimate Qt Build Guide
 - [**13**星][2m] [Py] [tmr232/cute](https://github.com/tmr232/cute) 在IDAPython中兼容QT4/QT5
 - [**9**星][3y] [Py] [techbliss/ida_pro_screen_recorder](https://github.com/techbliss/ida_pro_screen_recorder) PyQt plugin for Ida Pro for Screen recording.
 
@@ -881,9 +886,9 @@
 ### <a id="1721c09501e4defed9eaa78b8d708361"></a>控制台&&窗口界面
 
 
-- [**260**星][17d] [Py] [eset/ipyida](https://github.com/eset/ipyida) 集成IPython控制台
+- [**260**星][20d] [Py] [eset/ipyida](https://github.com/eset/ipyida) 集成IPython控制台
 - [**231**星][2y] [Jupyter Notebook] [james91b/ida_ipython](https://github.com/james91b/ida_ipython) 嵌入IPython内核，集成IPython
-- [**175**星][3m] [Py] [techbliss/python_editor](https://github.com/techbliss/python_editor) Python脚本编辑窗口
+- [**175**星][4m] [Py] [techbliss/python_editor](https://github.com/techbliss/python_editor) Python脚本编辑窗口
 
 
 ### <a id="227fbff77e3a13569ef7b007344d5d2e"></a>插件模板
@@ -938,7 +943,7 @@
 - [**390**星][11m] [C++] [cseagle/sk3wldbg](https://github.com/cseagle/sk3wldbg) 用Unicorn引擎做后端的调试插件
     - 重复区段: [工具/模拟器集成](#b38dab81610be087bd5bc7785269b8cc) |
 - [**184**星][5y] [C++] [nihilus/scyllahide](https://github.com/nihilus/scyllahide) 用户模式反-反调试
-- [**105**星][1m] [Py] [danielplohmann/apiscout](https://github.com/danielplohmann/apiscout) 简化导入API恢复。可以从内存中恢复API信息。包含命令行版本和IDA插件。可以处理PE头被抹掉等ImpRec/ImpRec无法处理的情况。
+- [**105**星][2m] [Py] [danielplohmann/apiscout](https://github.com/danielplohmann/apiscout) 简化导入API恢复。可以从内存中恢复API信息。包含命令行版本和IDA插件。可以处理PE头被抹掉等ImpRec/ImpRec无法处理的情况。
 - [**81**星][4y] [C++] [wjp/idados](https://github.com/wjp/idados) DOSBox调试器插件
     - 重复区段: [工具/针对特定分析目标/未分类](#5578c56ca09a5804433524047840980e) |
 - [**56**星][7y] [Py] [cr4sh/ida-vmware-gdb](https://github.com/cr4sh/ida-vmware-gdb) 辅助Windows内核调试
@@ -953,7 +958,7 @@
 ### <a id="0fbd352f703b507853c610a664f024d1"></a>DBI数据
 
 
-- [**929**星][11m] [Py] [gaasedelen/lighthouse](https://github.com/gaasedelen/lighthouse) 从DBI中收集代码覆盖情况，在IDA/Binja中映射、浏览、查看
+- [**929**星][12m] [Py] [gaasedelen/lighthouse](https://github.com/gaasedelen/lighthouse) 从DBI中收集代码覆盖情况，在IDA/Binja中映射、浏览、查看
     - [coverage-frida](https://github.com/gaasedelen/lighthouse/blob/master/coverage/frida/README.md) 使用Frida收集信息
     - [coverage-pin](https://github.com/gaasedelen/lighthouse/blob/master/coverage/pin/README.md) 使用Pin收集覆盖信息
     - [插件](https://github.com/gaasedelen/lighthouse/blob/master/plugin/lighthouse_plugin.py) 支持IDA和BinNinja
@@ -1060,7 +1065,7 @@
 - [**103**星][7m] [Py] [sibears/hrast](https://github.com/sibears/hrast) 演示如何修改AST(抽象语法树)
 - [**89**星][5m] [Py] [patois/hrdevhelper](https://github.com/patois/hrdevhelper) 反编译函数CTree可视化
     - 重复区段: [工具/效率&&导航&&快速访问&&图形&&图像&&可视化 /显示增强](#03fac5b3abdbd56974894a261ce4e25f) |
-- [**41**星][27d] [Py] [patois/mrspicky](https://github.com/patois/mrspicky) IDA反编译器脚本，辅助审计对于memcpy() 和memmove()函数的调用
+- [**41**星][30d] [Py] [patois/mrspicky](https://github.com/patois/mrspicky) IDA反编译器脚本，辅助审计对于memcpy() 和memmove()函数的调用
     - 重复区段: [工具/漏洞/未分类](#385d6777d0747e79cccab0a19fa90e7e) |
 - [**23**星][1y] [C++] [dougallj/dj_ida_plugins](https://github.com/dougallj/dj_ida_plugins) 向Hex-Rays反编译器添加VMX intrinsics
 
@@ -1130,7 +1135,7 @@
 - [**327**星][2m] [Py] [pfalcon/scratchabit](https://github.com/pfalcon/scratchabit) 交互式反汇编工具, 有与IDAPython兼容的插件API
 - [**225**星][6m] [Py] [patois/dsync](https://github.com/patois/dsync) 反汇编和反编译窗口同步插件
     - 重复区段: [工具/反编译器&&AST](#d2166f4dac4eab7fadfe0fd06467fbc9) |
-- [**183**星][24d] [Py] [danigargu/dereferencing](https://github.com/danigargu/dereferencing) 调试时寄存器和栈显示增强
+- [**183**星][28d] [Py] [danigargu/dereferencing](https://github.com/danigargu/dereferencing) 调试时寄存器和栈显示增强
 - [**130**星][2y] [Py] [comsecuris/ida_strcluster](https://github.com/comsecuris/ida_strcluster) 扩展IDA的字符串导航功能
     - 重复区段: [工具/字符串](#9dcc6c7dd980bec1f92d0cc9a2209a24) |
 - [**98**星][1y] [Py] [darx0r/stingray](https://github.com/darx0r/stingray) 递归查找函数和字符串
@@ -1177,7 +1182,7 @@
 - [**149**星][2y] [Py] [ga-ryo/idafuzzy](https://github.com/ga-ryo/idafuzzy) 模糊搜索: 命令/函数/结构体
     - 重复区段: [工具/函数相关/导航&&查看&&查找](#e4616c414c24b58626f834e1be079ebc) |
 - [**64**星][3y] [Py] [xorpd/idsearch](https://github.com/xorpd/idsearch) 搜索工具
-- [**23**星][4m] [Py] [alexander-hanel/hansel](https://github.com/alexander-hanel/hansel) IDA搜索插件
+- [**23**星][5m] [Py] [alexander-hanel/hansel](https://github.com/alexander-hanel/hansel) IDA搜索插件
 
 
 
@@ -1295,11 +1300,11 @@
     - 重复区段: [工具/调试&&动态运行&动态数据/未分类](#2944dda5289f494e5e636089db0d6a6a) |
 - [**383**星][3y] [Py] [36hours/idaemu](https://github.com/36hours/idaemu) 基于Unicorn引擎的代码模拟插件
     - 重复区段: [工具/辅助脚本编写/未分类](#45fd7cfce682c7c25b4f3fbc4c461ba2) |
-- [**271**星][7d] [Py] [fireeye/flare-emu](https://github.com/fireeye/flare-emu) 结合Unicorn引擎, 简化模拟脚本的编写
+- [**271**星][10d] [Py] [fireeye/flare-emu](https://github.com/fireeye/flare-emu) 结合Unicorn引擎, 简化模拟脚本的编写
     - 重复区段: [工具/辅助脚本编写/未分类](#45fd7cfce682c7c25b4f3fbc4c461ba2) |
 - [**202**星][2y] [Py] [tkmru/nao](https://github.com/tkmru/nao) 移除死代码(dead code), 基于Unicorn引擎
     - 重复区段: [工具/反混淆](#7199e8787c0de5b428f50263f965fda7) |
-- [**124**星][2y] [Py] [codypierce/pyemu](https://github.com/codypierce/pyemu) 在IDA中使用x86模拟器
+- [**124**星][3y] [Py] [codypierce/pyemu](https://github.com/codypierce/pyemu) 在IDA中使用x86模拟器
 
 
 ***
@@ -1308,12 +1313,12 @@
 ## <a id="83de90385d03ac8ef27360bfcdc1ab48"></a>作为辅助&&构成其他的一环
 
 
-- [**1515**星][13d] [Py] [lifting-bits/mcsema](https://github.com/lifting-bits/mcsema) 将x86, amd64, aarch64二进制文件转换成LLVM字节码
+- [**1515**星][16d] [Py] [lifting-bits/mcsema](https://github.com/lifting-bits/mcsema) 将x86, amd64, aarch64二进制文件转换成LLVM字节码
     - [IDA7插件](https://github.com/lifting-bits/mcsema/tree/master/tools/mcsema_disass/ida7) 用于反汇编二进制文件并生成控制流程图
     - [IDA插件](https://github.com/lifting-bits/mcsema/tree/master/tools/mcsema_disass/ida) 用于反汇编二进制文件并生成控制流程图
     - [Binja插件](https://github.com/lifting-bits/mcsema/tree/master/tools/mcsema_disass/binja) 用于反汇编二进制文件并生成控制流程图
     - [mcsema](https://github.com/lifting-bits/mcsema/tree/master/mcsema) 
-- [**416**星][22d] [C] [mcgill-dmas/kam1n0-community](https://github.com/McGill-DMaS/Kam1n0-Community) 汇编代码管理与分析平台(独立工具+IDA插件)
+- [**416**星][25d] [C] [mcgill-dmas/kam1n0-community](https://github.com/McGill-DMaS/Kam1n0-Community) 汇编代码管理与分析平台(独立工具+IDA插件)
     - 重复区段: [工具/签名(FLIRT等)&&比较(Diff)&&匹配/未分类](#cf04b98ea9da0056c055e2050da980c1) |
     - [IDA插件](https://github.com/McGill-DMaS/Kam1n0-Community/tree/master2.x/kam1n0-clients/ida-plugin) 
     - [kam1n0](https://github.com/McGill-DMaS/Kam1n0-Community/tree/master2.x/kam1n0) 
@@ -1347,12 +1352,12 @@
         </details>
 
 
-- [**137**星][6m] [Py] [iphelix/ida-sploiter](https://github.com/iphelix/ida-sploiter) 辅助漏洞研究
+- [**137**星][7m] [Py] [iphelix/ida-sploiter](https://github.com/iphelix/ida-sploiter) 辅助漏洞研究
 - [**133**星][1y] [Py] [carlosgprado/jarvis](https://github.com/carlosgprado/jarvis) 多功能, 带界面,辅助静态分析、漏洞挖掘、动态追踪(Pin)、导入导出等
     - 重复区段: [工具/导入导出&与其他工具交互/IntelPin](#dd0332da5a1482df414658250e6357f8) |[工具/调试&&动态运行&动态数据/DBI数据](#0fbd352f703b507853c610a664f024d1) |
     - [IDA插件](https://github.com/carlosgprado/jarvis/tree/master/IDAPlugin) 
     - [PinTracer](https://github.com/carlosgprado/jarvis/tree/master/PinTracer) 
-- [**41**星][27d] [Py] [patois/mrspicky](https://github.com/patois/mrspicky) IDA反编译器脚本，辅助审计对于memcpy() 和memmove()函数的调用
+- [**41**星][30d] [Py] [patois/mrspicky](https://github.com/patois/mrspicky) IDA反编译器脚本，辅助审计对于memcpy() 和memmove()函数的调用
     - 重复区段: [工具/反编译器&&AST](#d2166f4dac4eab7fadfe0fd06467fbc9) |
 - [**32**星][6y] [Py] [coldheat/quicksec](https://github.com/coldheat/quicksec) IDAPython script for quick vulnerability analysis
 
@@ -1454,7 +1459,7 @@
 ## <a id="34ac84853604a7741c61670f2a075d20"></a>污点分析&&符号执行
 
 
-- [**924**星][13d] [OCaml] [airbus-seclab/bincat](https://github.com/airbus-seclab/bincat) 二进制代码静态分析工具。值分析（寄存器、内存）、污点分析、类型重建和传播（propagation）、前向/后向分析
+- [**924**星][16d] [OCaml] [airbus-seclab/bincat](https://github.com/airbus-seclab/bincat) 二进制代码静态分析工具。值分析（寄存器、内存）、污点分析、类型重建和传播（propagation）、前向/后向分析
     - 重复区段: [工具/结构体&&类的检测&&创建&&恢复/未分类](#fa5ede9a4f58d4efd98585d3158be4fb) |
 - [**863**星][2y] [C++] [illera88/ponce](https://github.com/illera88/ponce) 简化污点分析+符号执行
 - [**22**星][3m] [Py] [jonathansalwan/x-tunnel-opaque-predicates](https://github.com/jonathansalwan/x-tunnel-opaque-predicates) IDA+Triton plugin in order to extract opaque predicates using a Forward-Bounded DSE. Example with X-Tunnel.
@@ -1486,7 +1491,7 @@
         </details>
 
 
-- [**178**星][14d] [Py] [joxeankoret/idamagicstrings](https://github.com/joxeankoret/idamagicstrings) 从字符串常量中提取信息
+- [**178**星][17d] [Py] [joxeankoret/idamagicstrings](https://github.com/joxeankoret/idamagicstrings) 从字符串常量中提取信息
 - [**130**星][2y] [Py] [comsecuris/ida_strcluster](https://github.com/comsecuris/ida_strcluster) 扩展IDA的字符串导航功能
     - 重复区段: [工具/效率&&导航&&快速访问&&图形&&图像&&可视化 /其他](#c5b120e1779b928d860ad64ff8d23264) |
 - [**98**星][1y] [Py] [darx0r/stingray](https://github.com/darx0r/stingray) 递归查找函数和字符串
@@ -1504,9 +1509,9 @@
 ## <a id="06d2caabef97cf663bd29af2b1fe270c"></a>加密解密
 
 
-- [**424**星][23d] [Py] [polymorf/findcrypt-yara](https://github.com/polymorf/findcrypt-yara) 使用Yara规则查找加密常量
+- [**424**星][26d] [Py] [polymorf/findcrypt-yara](https://github.com/polymorf/findcrypt-yara) 使用Yara规则查找加密常量
     - 重复区段: [工具/签名(FLIRT等)&&比较(Diff)&&匹配/Yara](#46c9dfc585ae59fe5e6f7ddf542fb31a) |
-- [**122**星][1m] [Py] [you0708/ida](https://github.com/you0708/ida) 查找加密常量
+- [**122**星][2m] [Py] [you0708/ida](https://github.com/you0708/ida) 查找加密常量
     - [IDA主题](https://github.com/you0708/ida/tree/master/theme) 
     - [findcrypt](https://github.com/you0708/ida/tree/master/idapython_tools/findcrypt) IDA FindCrypt/FindCrypt2 插件的Python版本
 - [**41**星][7y] [C++] [vlad902/findcrypt2-with-mmx](https://github.com/vlad902/findcrypt2-with-mmx) 对findcrypt2插件的增强，支持MMX AES指令
